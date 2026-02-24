@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81bb1cb7d468478498528b486612a03d, type: 3}
+  m_Name: smokey
+  m_EditorClassIdentifier: 
+  roomName: smokey
+  description: It's hard to see
+  exits:
+  - {fileID: 11400000, guid: a9111387728769142a3559e90fba9cd9, type: 2}
+  - {fileID: 11400000, guid: 26ff25beaa36096418bc84413a186c48, type: 2}
+  - {fileID: 11400000, guid: 7c8d0d7178a0583479d420f956b0269d, type: 2}

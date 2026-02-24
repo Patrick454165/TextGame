@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e69a1c8380e837849b7af63df3bf9f87, type: 3}
+  m_Name: toDragonEast
+  m_EditorClassIdentifier: 
+  direction: 2
+  description: This door leads to a warm room with an ominous red glow. Skulls dangle
+    on spikes within over a great fire (east)
+  room: {fileID: 11400000, guid: 4db543c76798f584fb2d27fc3abaa7e7, type: 2}
