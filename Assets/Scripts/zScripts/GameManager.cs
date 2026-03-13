@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour
 
     void ResetGame()
     {
-        Debug.Log("Run");
+        
         inventory.Clear();
         
     }
