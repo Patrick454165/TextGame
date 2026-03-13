@@ -13,8 +13,14 @@ MonoBehaviour:
   m_Name: key
   m_EditorClassIdentifier: 
   roomName: key
-  description: there is key
+  description: Strings upon strings, hanging low, keys dangle on these strings as
+    they hang low, uncountable in number
+  altDescription: Strings upon strings, hanging low, keys dangle on these strings
+    as they hang low, uncountable in number. It doesn't even look like one was taken
+  useAltDesc: 0
   exits:
-  - {fileID: 11400000, guid: 38c75638c005c5140a7edd7fac396d5e, type: 2}
+  - {fileID: 11400000, guid: 0485698e88bd484499a491138fbc0b01, type: 2}
+  - {fileID: 11400000, guid: 1b4053ad8e033f240b5b35004837be12, type: 2}
   items:
   - key
+  startingItem: key

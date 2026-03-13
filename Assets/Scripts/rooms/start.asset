@@ -13,7 +13,13 @@ MonoBehaviour:
   m_Name: start
   m_EditorClassIdentifier: 
   roomName: start
-  description: You awaken in a dark room
+  description: You awaken in a dark room, barely lit by candles and sharply awoken
+    by the smell of smoke rushing into your lungs
+  altDescription: The room is dark, lit only by two candles, which do little to cleanse
+    the room of the disgusting stench
+  useAltDesc: 1
   exits:
   - {fileID: 11400000, guid: ab23b2cf609cf8945b4da6f0b4830fa4, type: 2}
   - {fileID: 11400000, guid: 6a9c201b440ca8645b0ccda7afcc31bc, type: 2}
+  items: []
+  startingItems: []

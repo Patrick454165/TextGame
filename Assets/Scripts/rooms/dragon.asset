@@ -13,5 +13,17 @@ MonoBehaviour:
   m_Name: dragon
   m_EditorClassIdentifier: 
   roomName: dragon
-  description: you died mah dood
-  exits: []
+  description: The smog grows dense. It's hard to breath as you step into the room
+    and watch the skulls dangling on the long string over the pit of fire rattle.
+    The dragon raises its head with a laugh before lowering it to face you, flames
+    tickling its mouth
+  altDescription: The smog has fallen to a rest. The corpse of the dragon lays as
+    if a fallen puppet. They are of no threat to you. It seems their corpse has crushed
+    the way back though, you may need to go another route
+  useAltDesc: 0
+  exits:
+  - {fileID: 11400000, guid: c6821a0badbd8cf4ca6ef1d9e788c09d, type: 2}
+  - {fileID: 11400000, guid: c349ed5acd7174143b2dcc5b540f5d3a, type: 2}
+  items:
+  - 
+  startingItem: 

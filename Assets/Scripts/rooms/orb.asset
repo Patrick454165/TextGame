@@ -13,9 +13,15 @@ MonoBehaviour:
   m_Name: orb
   m_EditorClassIdentifier: 
   roomName: orb
-  description: there is orb
+  description: Within the room is a brightly lit, shimmering wall of glyphs with
+    various unknown meanings. Illuminating them with a purple glow is a simple glass
+    orb
+  altDescription: This room no longer holds the orb. Its stoneworks are dull and
+    dim now
+  useAltDesc: 0
   exits:
   - {fileID: 11400000, guid: ac9ff88776384374389a37d69fb942db, type: 2}
   - {fileID: 11400000, guid: d1fa62c9de2baa3458bb68555faa781c, type: 2}
   items:
   - orb
+  startingItem: orb

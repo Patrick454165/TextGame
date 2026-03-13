@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e69a1c8380e837849b7af63df3bf9f87, type: 3}
-  m_Name: toWinEast
+  m_Name: ToDragonWest
   m_EditorClassIdentifier: 
-  direction: 2
-  description: this door leads out (East)
-  room: {fileID: 11400000, guid: 9498a018f38d2e04cb05e3e44e9d7507, type: 2}
+  direction: 3
+  description: This door leads to a warm room with an ominous red glow. Skulls dangle
+    on spikes within over a great fire (West)
+  room: {fileID: 11400000, guid: 4db543c76798f584fb2d27fc3abaa7e7, type: 2}
   isLocked: 0
   isHidden: 0

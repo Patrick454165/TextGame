@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e69a1c8380e837849b7af63df3bf9f87, type: 3}
-  m_Name: toWinEast
+  m_Name: ToExitSouth
   m_EditorClassIdentifier: 
-  direction: 2
-  description: this door leads out (East)
-  room: {fileID: 11400000, guid: 9498a018f38d2e04cb05e3e44e9d7507, type: 2}
+  direction: 1
+  description: You could drop down from a window, it appears to lead to a beautiful,
+    gemstone-riddled room with a strange man inside (South)
+  room: {fileID: 11400000, guid: 4c28f310f04bf5c4b8d10d023212a12f, type: 2}
   isLocked: 0
   isHidden: 0

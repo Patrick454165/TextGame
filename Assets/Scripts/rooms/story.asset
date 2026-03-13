@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81bb1cb7d468478498528b486612a03d, type: 3}
-  m_Name: smokey
+  m_Name: story
   m_EditorClassIdentifier: 
-  roomName: smokey
-  description: Smog floats through the air, almost filling your lungs as you step
-    through. It smells like a campfire.
+  roomName: story
+  description: 'The room within is lined from floor to ceiling with tomes. One obelisk
+    stands tall in the center: "Only the chosen wielder of Sigebert may slay the
+    dragon at the heart of the maze!"'
   altDescription: 
   useAltDesc: 0
   exits:
-  - {fileID: 11400000, guid: ab48a91d309c3a64a959b1429856626e, type: 2}
-  - {fileID: 11400000, guid: 26ff25beaa36096418bc84413a186c48, type: 2}
-  - {fileID: 11400000, guid: 7c8d0d7178a0583479d420f956b0269d, type: 2}
+  - {fileID: 11400000, guid: 38c75638c005c5140a7edd7fac396d5e, type: 2}
+  - {fileID: 11400000, guid: 81d4b168437743347b4a432ea0d23cbf, type: 2}
   items: []
   startingItems: []

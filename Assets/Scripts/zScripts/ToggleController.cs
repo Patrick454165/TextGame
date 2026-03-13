@@ -8,16 +8,19 @@ public class ToggleController : MonoBehaviour
     public static InputManager instance;
 
     public TMP_Text storyText; // the story 
-    public TMP_InputField userInput; // the input field object
+    public TMP_Text userInput; // the input field object
     public TMP_Text inputText; // part of the input field where user enters response
     public TMP_Text placeHolderText; // part of the input field for initial placeholder text
     public Text toggleText;
+    public Text sliderText;
     public ScrollRect scrollRect; //scrolls
     public Image background;
-
+    public Image input_field;
     private bool darkmode;
-
     private Toggle toggle;
+
+    //font size
+    
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -47,6 +50,9 @@ public class ToggleController : MonoBehaviour
             inputText.color = Color.white;
             placeHolderText.color = Color.white;
             toggleText.color = Color.white;
+            userInput.color = Color.white;
+            input_field.color = Color.black;
+            sliderText.color = Color.white;
         }
         else
         {
@@ -56,6 +62,9 @@ public class ToggleController : MonoBehaviour
             inputText.color = Color.black;
             placeHolderText.color = Color.black;
             toggleText.color = Color.black;
+            userInput.color = Color.black;
+            input_field.color = Color.white;
+            sliderText.color = Color.black;
         }
     }
 

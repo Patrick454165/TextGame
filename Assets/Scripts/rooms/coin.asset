@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81bb1cb7d468478498528b486612a03d, type: 3}
+  m_Name: coin
+  m_EditorClassIdentifier: 
+  roomName: coin
+  description: The room resembles a king's resting chambers, with the large bed set
+    in the back. On a dresser next to the bed rests a single golden coin engraves
+    "Davio's Coin."
+  altDescription: The room resembles a king's resting chambers, with the large bed
+    set in the back
+  useAltDesc: 1
+  exits:
+  - {fileID: 11400000, guid: bd92f7110f7608249b43d9d85cab9e8b, type: 2}
+  - {fileID: 11400000, guid: b1be02d745cdc464ab31e3416a143605, type: 2}
+  items: []
+  startingItem: coin

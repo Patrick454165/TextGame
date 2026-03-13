@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e69a1c8380e837849b7af63df3bf9f87, type: 3}
-  m_Name: toWinEast
+  m_Name: ToCoinEast
   m_EditorClassIdentifier: 
   direction: 2
-  description: this door leads out (East)
-  room: {fileID: 11400000, guid: 9498a018f38d2e04cb05e3e44e9d7507, type: 2}
+  description: This way lies a royal looked room. The door is marked "King's Chambers,
+    DO NOT ENTER" (East)
+  room: {fileID: 11400000, guid: 13ef9732e3fb03e4f833f6968b32556a, type: 2}
   isLocked: 0
   isHidden: 0

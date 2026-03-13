@@ -10,13 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81bb1cb7d468478498528b486612a03d, type: 3}
-  m_Name: win
+  m_Name: sword
   m_EditorClassIdentifier: 
-  roomName: win
-  description: You escaped
-  altDescription: 
+  roomName: sword
+  description: Resting within a hollow stone, the legendary blade Sigebert lays,
+    the rest of the room wooden and almost resembling an armory
+  altDescription: the room resembles an armory, but its most powerful weapon is gone
+    now
   useAltDesc: 0
-  exits: []
+  exits:
+  - {fileID: 11400000, guid: b89be9467c243234c8c13a0b2a91d805, type: 2}
   items:
-  - 
-  startingItem: 
+  - sword
+  startingItem: sword
